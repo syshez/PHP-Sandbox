@@ -9,7 +9,7 @@ $coups = 'FPFCCCCPFFC';
 Html::debug($coups, '$coups');
 
 // CODE DU CHALLENGE ------------------
-
+echo 'hello'
 
 
 
