@@ -10,6 +10,69 @@ Html::debug($pokemons, '$pokemons');
 
 // CODE DU CHALLENGE ------------------
 
+print_r ($pokemons);
+// 'Air:79' => ['type' => 'Air', 'puissance' => 79]
+function informationsPokemon(string $informations): array
+{
+ 
+    explode(':',$pokemons);
+
+    return print_r($pokemons);
+}
+
+
+
+/*
+$pokemons
+[
+['type' => 'Air', 'puissance' => 79],
+['type' => 'Air', 'puissance' => 84],
+['type' => 'Eau', 'puissance' => 79],
+['type' => 'Herbe', 'puissance' => 12],
+['type' => 'Air', 'puissance' => 60]
+]
+
+
+
+$type 'Air'
+
+
+
+$pokemonsTries
+[
+['type' => 'Air', 'puissance' => 79],
+['type' => 'Air', 'puissance' => 84],
+['type' => 'Air', 'puissance' => 60]
+]
+*/
+function triPokemonsSelonUnType(array $pokemons, string $type): array
+{
+
+
+
+return $pokemonsTries;
+}
+
+
+
+/*
+$pokemons
+[
+['type' => 'Air', 'puissance' => 79],
+['type' => 'Air', 'puissance' => 84],
+['type' => 'Air', 'puissance' => 60]
+]
+
+
+
+$puissance
+84
+*/
+function meilleurePuissance(array $pokemons): int
+{
+// Recherche de maximum
+
+}
 
 
 

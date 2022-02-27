@@ -41,4 +41,4 @@ echo $reponse;
 
 
 // REPONSE ----------------------------
-// $game->output(['data' => ...]);
+$game->output(['data' => $reponse]);
